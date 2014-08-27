@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    			android:id="@+id/app_relative_layout"
+                android:layout_width="66dp"
+                android:layout_height="66dp"
+>
+<RelativeLayout
+    	android:id="@+id/com_iinmobi_adsdk_app_r"
+	    android:layout_width="66dp"
+	    android:layout_height="66dp"
+	    android:background="@drawable/com_iinmobi_adsdk_app_entrance_bg"
+	    >
+	 <ImageView
+	    android:id="@+id/com_iinmobi_adsdk_app_entrance_chest_view"
+	    android:layout_centerInParent="true"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:src="@drawable/com_iinmobi_adsdk_app_entrance_chest"
+	    />
+    <ImageView
+        android:id="@+id/com_iinmobi_adsdk_update_total_bg"
+	    android:layout_marginTop="4dp"
+	    android:layout_alignParentRight="true"
+	    android:layout_width="20dp"
+	    android:layout_height="20dp"
+	    android:src="@drawable/com_iinmobi_adsdk_app_entrance_tips"
+	    />
+    <TextView
+	    android:id="@+id/com_iinmobi_adsdk_update_total_value"
+	    android:layout_alignParentRight="true"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:text="5"
+	    android:paddingRight="6dp"
+	    android:paddingTop="4dp"
+	    android:textColor="#ffffff"
+	    android:textSize="13.5sp"
+	    />
+	
+</RelativeLayout>
+
+
+</RelativeLayout>
