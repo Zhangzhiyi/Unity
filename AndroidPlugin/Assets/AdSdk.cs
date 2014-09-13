@@ -38,8 +38,10 @@ public class AdSdk
 		{
 				if (Application.platform != RuntimePlatform.Android)
 						return;
-				
-				_plugin.Call ("setLocationQuantity", location, mNumber);
+				_activity.Call ("runOnUiThread", new AndroidJavaRunnable (() =>
+				{
+					_plugin.Call ("setLocationQuantity", location, mNumber);
+				}));
 		}
 
 		public static void activityStart ()
